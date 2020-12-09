@@ -32,6 +32,7 @@
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/icu" name="android_external_icu" remote="lineage" />
+  <project path="external/libaom" name="android_external_libaom" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/libcxx" name="android_external_libcxx" remote="lineage" />
   <project path="external/libhevc" name="android_external_libhevc" remote="lineage" />
@@ -143,6 +144,7 @@
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lineage" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="lineage" />
+  <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="lineage" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
