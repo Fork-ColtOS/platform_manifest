@@ -58,6 +58,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="lineage" />
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="lineage" />
 
   <!-- Hardware -->
   <project path="hardware/broadcom/fm" name="android_hardware_broadcom_fm" remote="lineage" />
@@ -156,6 +157,7 @@
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="lineage" />
   <project path="system/keymaster" name="android_system_keymaster" remote="lineage" />
   <project path="system/nfc" name="android_system_nfc" remote="lineage" />
+  <project path="system/security" name="android_system_security" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" remote="lineage" />
