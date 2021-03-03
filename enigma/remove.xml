@@ -82,6 +82,7 @@
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/chromium-webview"/>
   <remove-project name="platform/external/cldr" />
+  <remove-project name="platform/external/dnsmasq" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
@@ -107,6 +108,7 @@
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
+  <remove-project name="platform/external/v8" />
   <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- Frameworks -->
@@ -208,6 +210,7 @@
   <!-- System -->
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/connectivity/wificond" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/keymaster" />
@@ -216,6 +219,7 @@
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/timezone" />
+  <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 

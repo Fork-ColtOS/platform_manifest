@@ -26,6 +26,7 @@
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
   <project path="external/cldr" name="android_external_cldr" remote="lineage" />
   <project path="external/connectivity" name="android_external_connectivity" remote="lineage" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="lineage" />
   <project path="external/exfat" name="android_external_exfat" remote="lineage" />
   <project path="external/libexif" name="android_external_libexif" remote="lineage" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
@@ -55,6 +56,7 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="lineage" />
   <project path="external/toybox" name="android_external_toybox" remote="lineage" />
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
+  <project path="external/v8" name="android_external_v8" remote="lineage" />
   <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lineage" />
   <project path="external/zip" name="android_external_zip" remote="lineage" />
@@ -156,6 +158,7 @@
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="lineage" clone-depth="1" />
 
   <!-- System -->
+  <project path="system/connectivity/wificond" name="android_system_connectivity_wificond" remote="lineage" />
   <project path="system/extras" name="android_system_extras" remote="lineage" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="lineage" />
   <project path="system/keymaster" name="android_system_keymaster" remote="lineage" />
@@ -163,6 +166,7 @@
   <project path="system/security" name="android_system_security" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" remote="lineage" />
 
   <!-- Vendor -->
