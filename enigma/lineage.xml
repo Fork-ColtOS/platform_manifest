@@ -64,6 +64,7 @@
   <!-- Frameworks -->
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="lineage" />
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="lineage" />
+  <project path="frameworks/hardware/interfaces" name="android_frameworks_hardware_interfaces" remote="lineage" />
 
   <!-- Hardware -->
   <project path="hardware/broadcom/fm" name="android_hardware_broadcom_fm" remote="lineage" />
