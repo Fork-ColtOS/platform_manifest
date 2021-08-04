@@ -105,6 +105,7 @@
   <remove-project name="platform/external/rapidjson" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
@@ -219,6 +220,7 @@
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/keymaster" />
   <remove-project name="platform/system/libfmq" />
+  <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/security" />
