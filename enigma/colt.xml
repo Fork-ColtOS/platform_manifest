@@ -42,6 +42,8 @@
     <!-- External Repos -->
     <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="colt" />
     <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="colt" />
+    <project path="external/motorola/faceunlock-res" name="platform_external_motorola_faceunlock-res" remote="colt" />
+    <project path="external/motorola/faceunlock" name="platform_external_motorola_faceunlock" remote="colt" />
     <project path="external/tinycompress" name="platform_external_tinycompress" remote="colt" />
 
     <!-- Framework Repos -->
