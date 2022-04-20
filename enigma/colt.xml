@@ -5,13 +5,12 @@
            fetch="https://github.com" />
 
   <remote  name="colt"
-           fetch="https://github.com/Colt-Enigma"
+           fetch="https://github.com/Fork-ColtOS"
            revision="refs/heads/c10" />
            
   <remote  name="colt-devices"
            fetch="https://github.com/ColtOS-Devices"
            revision="refs/heads/c10" />
-
 
     <!-- General Repos -->
     <project path="bionic" name="platform_bionic" remote="colt" />

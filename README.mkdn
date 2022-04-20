@@ -1,14 +1,6 @@
-ColtOS-Android10 Sources
-===============================
-
-[![Download ColtOS](https://img.shields.io/sourceforge/dm/coltos.svg?color=3498DB&label=ColtOS%20Downloads&style=for-the-badge&labelColor=1B4F72&logo=sourceforge)](https://sourceforge.net/projects/coltos/files)
-[![Download ColtOS](https://img.shields.io/sourceforge/dw/coltos.svg?color=3498DB&label=ColtOS%20Downloads&style=for-the-badge&labelColor=1B4F72&logo=sourceforge)](https://sourceforge.net/projects/coltos/files)
-[![TG chat](https://img.shields.io/badge/Support-Telegram-%233498DB.svg?style=for-the-badge&logo=telegram&&labelColor=1B4F72)](https://t.me/ColtEnigma)
-
-ColtOS Project
+ForkColtOS Project - Android 10 Sources
 ===============
-ColtOS Project is a team of learners and based on aosp with some customizations.
-
+ForkColtOS Project based on ColtOS Project, with upstreamed source and more improvement
 
 How to Build?
 -------------
@@ -38,18 +30,18 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
 
       $ chmod a+x ~/bin/repo
 
-To initialize your local repository using the ColtOS trees, use a 
+To initialize your local repository using the ForkColtOS trees, use a 
 command like this:
 
 ```bash
-  repo init -u https://github.com/Colt-Enigma/platform_manifest.git -b c10
+repo init -u https://github.com/Fork-ColtOS/platform_manifest.git -b c10
 ```
   
 Then to sync up:
 ----------------
 
 ```bash
-repo sync --no-tags --no-clone-bundle --force-sync -c
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 Finally to build:
 -----------------
@@ -69,13 +61,7 @@ Finally to build:
   make colt
 ```
 
-Help from other devices for making them Official
-------------------------------------------------
-
-If you got some commits missing in our sources for your device, let us know on our telegram chat. Everything else, it's up to you at the time of building.
-
-
 Thanks & regards,
 -----------------
 
-#TeamColt
+#TeamForkColt
