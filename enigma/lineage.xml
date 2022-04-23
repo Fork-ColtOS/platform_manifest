@@ -6,7 +6,6 @@
           revision="refs/heads/lineage-17.1" />
 
   <!-- General repos -->
-  <project path="art" name="android_art" remote="lineage" />
   <project path="development" name="android_development" remote="lineage" />
   <project path="platform_testing" name="android_platform_testing" remote="lineage" />
 

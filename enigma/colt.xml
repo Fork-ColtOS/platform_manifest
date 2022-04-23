@@ -13,6 +13,7 @@
            revision="refs/heads/c10" />
 
     <!-- General Repos -->
+    <project path="art" name="platform_art" remote="colt" />
     <project path="bionic" name="platform_bionic" remote="colt" />
     <project path="bootable/recovery" name="platform_bootable_recovery" remote="colt" />
     <project path="libcore" name="platform_libcore"  remote="colt" />
