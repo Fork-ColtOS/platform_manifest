@@ -41,6 +41,7 @@
     <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="colt" />
 
     <!-- External Repos -->
+    <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" remote="colt" />
     <project path="external/airbnb-lottie" name="platform_external_airbnb-lottie" remote="colt" />
     <project path="external/asus/stitchimage" name="platform_external_asus_stitchimage" remote="colt" />
     <project path="external/motorola/faceunlock-res" name="platform_external_motorola_faceunlock-res" remote="colt" />
