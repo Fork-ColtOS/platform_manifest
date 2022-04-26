@@ -91,6 +91,7 @@
 
     <!--Prebuilts -->
     <project path="prebuilts/tools-colt" name="platform_prebuilts_tools-colt" remote="colt" clone-depth="1" />
+    <project path="prebuilts/abi-dumps/ndk" name="platform_prebuilts_abi-dumps_ndk" remote="colt" clone-depth="1" />
 
     <!-- System Repos -->
     <project path="system/bt" name="platform_system_bt" remote="colt" />
