@@ -18,6 +18,7 @@
     <project path="bootable/recovery" name="platform_bootable_recovery" remote="colt" />
     <project path="libcore" name="platform_libcore"  remote="colt" />
     <project path="manifest" name="platform_manifest" remote="colt" />
+    <project path="platform_testing" name="platform_platform_testing" remote="colt" />
 
     <!-- Build Repos -->
     <project path="build/make" name="platform_build_make" remote="colt" >
