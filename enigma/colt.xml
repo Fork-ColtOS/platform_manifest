@@ -92,6 +92,7 @@
 
     <!--Prebuilts -->
     <project path="prebuilts/tools-colt" name="platform_prebuilts_tools-colt" remote="colt" clone-depth="1" />
+    <project path="prebuilts/tools-extras" name="platform_prebuilts_tools-extras" remote="colt" />
     <project path="prebuilts/abi-dumps/ndk" name="platform_prebuilts_abi-dumps_ndk" remote="colt" clone-depth="1" />
     <project path="prebuilts/abi-dumps/vndk" name="platform_prebuilts_abi-dumps_vndk" remote="colt" clone-depth="1" />
     <project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
